@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color: lightgray;
 }
 
 .row{
@@ -16,6 +16,15 @@ body{
     width: 200px;
     position: relative;
     margin: .5em .5em;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bold;
 }
 
 h5{
@@ -50,4 +59,8 @@ h5.support{
 h5.host{
     background-color: #00aba9;
 
+}
+
+.visual{
+    margin: 2em 1em;
 }
