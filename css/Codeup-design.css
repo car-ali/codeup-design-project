@@ -1,6 +1,55 @@
 body{
-    background-color: lightgray;
+    background-color: #F0F0F0;
+    display: inline-block; /* lightgray background*/
 }
+
+/*All containers*/
+.container{
+    margin: 0;
+    max-width: 100%;
+}
+.nav-container {
+    background-color: white;
+}
+/*Top grey bar*/
+.gery-row-height {
+    background-color: #F0F0F0;
+    padding: 2em;
+}
+.nav-headings-container{
+    background-color: #F0F0F0;
+}
+/* Navigation logo image display*/
+.logo-img {
+    margin-top: -2em;
+    margin-bottom: -2em;
+    width: 50%;
+    margin-left: 25%;
+}
+.code-top{
+    margin-top: 2em;
+}
+/*links*/
+.nav-heading-link {
+    line-height: 3em;
+    margin-left: 1em;
+    font-size: 1.5em;
+}
+/*link actions*/
+a:link {
+    color: black;
+    font-family: 'Abel', sans-serif;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: blue;
+}
+
 
 .row{
     display: flex;
@@ -65,25 +114,6 @@ h5.host{
     margin: 2em 1em;
 }
 
-img{
-    height: 50%;
-    width: 50%;
-    align-content: center;
-    margin-left: 25%;
-    background-size: cover;
-}
+@media screen and (max-width: 576px){
 
-.imgbackground{
-    background-color: white;
-    height: 20px;
-}
-
-.container{
-    margin: 0;
-    max-width: 100%;
-}
-
-.jumbotron{
-    padding: 0;
-    background-color: lightgray;
 }
