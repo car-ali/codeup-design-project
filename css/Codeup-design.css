@@ -228,6 +228,10 @@ hr {
         top: 95px;
         right: 8px;
     }
+
+    .col-md-4{
+        width: 31.333333%;
+    }
     /*#last {*/
     /*text-align: right;*/
     /*}*/
